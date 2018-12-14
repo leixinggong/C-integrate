@@ -23,6 +23,9 @@
 		11844CAE21B26E7400725280 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 11844CAD21B26E7400725280 /* main.c */; };
 		11844CB921B26E9F00725280 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 11844CB821B26E9F00725280 /* main.c */; };
 		11844CC421B26EBC00725280 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 11844CC321B26EBC00725280 /* main.c */; };
+		437E543C21B3EC4300278745 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 437E543B21B3EC4300278745 /* main.c */; };
+		437E544721B3EC5B00278745 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 437E544621B3EC5B00278745 /* main.c */; };
+		437E545221B3EC8700278745 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 437E545121B3EC8700278745 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -170,6 +173,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		437E543721B3EC4300278745 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		437E544221B3EC5B00278745 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		437E544D21B3EC8700278745 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +236,13 @@
 		11844CC121B26EBC00725280 /* 位操作 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "位操作"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11844CC321B26EBC00725280 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		11844CCA21B26F4700725280 /* 零基础入门C语言.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "零基础入门C语言.pdf"; sourceTree = "<group>"; };
+		437E541B21B2B20800278745 /* C语言进阶篇-王桂林.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "C语言进阶篇-王桂林.pdf"; sourceTree = "<group>"; };
+		437E543921B3EC4300278745 /* FILE(管理系统) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FILE(管理系统)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437E543B21B3EC4300278745 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		437E544421B3EC5B00278745 /* 双向链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "双向链表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437E544621B3EC5B00278745 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		437E544F21B3EC8700278745 /* 序列加密 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "序列加密"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437E545121B3EC8700278745 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,6 +358,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		437E543621B3EC4300278745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437E544121B3EC5B00278745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437E544C21B3EC8700278745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -344,6 +402,9 @@
 				11844CAC21B26E7400725280 /* FILE */,
 				11844CB721B26E9F00725280 /* Union  && Enum (大小端) */,
 				11844CC221B26EBC00725280 /* 位操作 */,
+				437E543A21B3EC4300278745 /* FILE(管理系统) */,
+				437E544521B3EC5B00278745 /* 双向链表 */,
+				437E545021B3EC8700278745 /* 序列加密 */,
 				11844C0421B268FA00725280 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -367,6 +428,9 @@
 				11844CAB21B26E7400725280 /* FILE */,
 				11844CB621B26E9E00725280 /* Union  && Enum (大小端) */,
 				11844CC121B26EBC00725280 /* 位操作 */,
+				437E543921B3EC4300278745 /* FILE(管理系统) */,
+				437E544421B3EC5B00278745 /* 双向链表 */,
+				437E544F21B3EC8700278745 /* 序列加密 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -502,9 +566,34 @@
 		11844CC921B26F3300725280 /* 参考 */ = {
 			isa = PBXGroup;
 			children = (
+				437E541B21B2B20800278745 /* C语言进阶篇-王桂林.pdf */,
 				11844CCA21B26F4700725280 /* 零基础入门C语言.pdf */,
 			);
 			path = "参考";
+			sourceTree = "<group>";
+		};
+		437E543A21B3EC4300278745 /* FILE(管理系统) */ = {
+			isa = PBXGroup;
+			children = (
+				437E543B21B3EC4300278745 /* main.c */,
+			);
+			path = "FILE(管理系统)";
+			sourceTree = "<group>";
+		};
+		437E544521B3EC5B00278745 /* 双向链表 */ = {
+			isa = PBXGroup;
+			children = (
+				437E544621B3EC5B00278745 /* main.c */,
+			);
+			path = "双向链表";
+			sourceTree = "<group>";
+		};
+		437E545021B3EC8700278745 /* 序列加密 */ = {
+			isa = PBXGroup;
+			children = (
+				437E545121B3EC8700278745 /* main.c */,
+			);
+			path = "序列加密";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -782,6 +871,57 @@
 			productReference = 11844CC121B26EBC00725280 /* 位操作 */;
 			productType = "com.apple.product-type.tool";
 		};
+		437E543821B3EC4300278745 /* FILE(管理系统) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437E543F21B3EC4300278745 /* Build configuration list for PBXNativeTarget "FILE(管理系统)" */;
+			buildPhases = (
+				437E543521B3EC4300278745 /* Sources */,
+				437E543621B3EC4300278745 /* Frameworks */,
+				437E543721B3EC4300278745 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FILE(管理系统)";
+			productName = "FILE(管理系统)";
+			productReference = 437E543921B3EC4300278745 /* FILE(管理系统) */;
+			productType = "com.apple.product-type.tool";
+		};
+		437E544321B3EC5B00278745 /* 双向链表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437E544821B3EC5B00278745 /* Build configuration list for PBXNativeTarget "双向链表" */;
+			buildPhases = (
+				437E544021B3EC5B00278745 /* Sources */,
+				437E544121B3EC5B00278745 /* Frameworks */,
+				437E544221B3EC5B00278745 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "双向链表";
+			productName = "双向链表";
+			productReference = 437E544421B3EC5B00278745 /* 双向链表 */;
+			productType = "com.apple.product-type.tool";
+		};
+		437E544E21B3EC8700278745 /* 序列加密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437E545321B3EC8700278745 /* Build configuration list for PBXNativeTarget "序列加密" */;
+			buildPhases = (
+				437E544B21B3EC8700278745 /* Sources */,
+				437E544C21B3EC8700278745 /* Frameworks */,
+				437E544D21B3EC8700278745 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "序列加密";
+			productName = "序列加密";
+			productReference = 437E544F21B3EC8700278745 /* 序列加密 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -839,6 +979,15 @@
 					11844CC021B26EBC00725280 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
+					437E543821B3EC4300278745 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					437E544321B3EC5B00278745 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					437E544E21B3EC8700278745 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 11844BFE21B268FA00725280 /* Build configuration list for PBXProject "C - integrate" */;
@@ -869,6 +1018,9 @@
 				11844CAA21B26E7400725280 /* FILE */,
 				11844CB521B26E9E00725280 /* Union  && Enum (大小端) */,
 				11844CC021B26EBC00725280 /* 位操作 */,
+				437E543821B3EC4300278745 /* FILE(管理系统) */,
+				437E544321B3EC5B00278745 /* 双向链表 */,
+				437E544E21B3EC8700278745 /* 序列加密 */,
 			);
 		};
 /* End PBXProject section */
@@ -1002,6 +1154,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		437E543521B3EC4300278745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437E543C21B3EC4300278745 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437E544021B3EC5B00278745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437E544721B3EC5B00278745 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437E544B21B3EC8700278745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437E545221B3EC8700278745 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -1118,7 +1294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1127,7 +1303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1136,7 +1312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1145,7 +1321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1154,7 +1330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1163,7 +1339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1172,7 +1348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1181,7 +1357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1190,7 +1366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1199,7 +1375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1208,7 +1384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1217,7 +1393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1226,7 +1402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1235,7 +1411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1244,7 +1420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1253,7 +1429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1262,7 +1438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1271,7 +1447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1280,7 +1456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1289,7 +1465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1298,7 +1474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1307,7 +1483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1316,7 +1492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1325,7 +1501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1334,7 +1510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1343,7 +1519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1352,7 +1528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1361,7 +1537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1370,7 +1546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1379,7 +1555,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1388,7 +1564,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1397,7 +1573,70 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2QAY558X9;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		437E543D21B3EC4300278745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		437E543E21B3EC4300278745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		437E544921B3EC5B00278745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		437E544A21B3EC5B00278745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACH6LEWT9Q;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		437E545421B3EC8700278745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2TE44U4HF;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		437E545521B3EC8700278745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2TE44U4HF;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1554,6 +1793,33 @@
 			buildConfigurations = (
 				11844CC621B26EBC00725280 /* Debug */,
 				11844CC721B26EBC00725280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437E543F21B3EC4300278745 /* Build configuration list for PBXNativeTarget "FILE(管理系统)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437E543D21B3EC4300278745 /* Debug */,
+				437E543E21B3EC4300278745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437E544821B3EC5B00278745 /* Build configuration list for PBXNativeTarget "双向链表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437E544921B3EC5B00278745 /* Debug */,
+				437E544A21B3EC5B00278745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437E545321B3EC8700278745 /* Build configuration list for PBXNativeTarget "序列加密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437E545421B3EC8700278745 /* Debug */,
+				437E545521B3EC8700278745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

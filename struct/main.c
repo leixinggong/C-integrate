@@ -8,8 +8,19 @@
 
 #include <stdio.h>
 
+typedef struct stu {
+    
+    char name[100];
+    int age;
+    char sex;
+} Stu;
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+   
+    
+    Stu stu = {"gongleixing",4,'x'};
+    
+    printf("%d \n",stu.age );
+    
     return 0;
 }

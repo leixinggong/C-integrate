@@ -9,10 +9,15 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>FILE(管理系统).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>FILE.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>16</integer>
 		</dict>
 		<key>Union  &amp;&amp; Enum (大小端).xcscheme_^#shared#^_</key>
 		<dict>
@@ -32,7 +37,7 @@
 		<key>二分查找法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>10</integer>
 		</dict>
 		<key>二级指针（多级指针）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -52,7 +57,7 @@
 		<key>内存管理.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>12</integer>
 		</dict>
 		<key>函数- 函数指针 回调函数.xcscheme_^#shared#^_</key>
 		<dict>
@@ -63,6 +68,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>双向链表.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>序列加密.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
 		</dict>
 		<key>指针.xcscheme_^#shared#^_</key>
 		<dict>
@@ -77,7 +92,7 @@
 		<key>排序(选择 冒泡 快速).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>数组指针.xcscheme_^#shared#^_</key>
 		<dict>
